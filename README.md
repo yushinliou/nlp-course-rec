@@ -27,7 +27,7 @@
         6. **Interests:** Separated by `_`.
 
 + **Model Architecture**
-    + Includes embedding layer, transformer, MLP layers. Loss function is mean-square error: \(\frac{1}{n}\sum_{i=1}^{N}{(y-\hat{y})^2}\), where \(y=1\), \(\hat{y}\) is predicted probability of 1, \(n\) is number of training data.
+    + Includes embedding layer, transformer, MLP layers. Loss function is mean-square error: $\(\frac{1}{n}\sum_{i=1}^{N}{(y-\hat{y})^2}\)$, where $\(y=1\)$, $\(\hat{y}\)$ is predicted probability of 1, $\(n\)$ is number of training data.
     + **Output:** Probability of user purchasing a target item.
         + **Seen Course:** Predicts probability of purchasing each of 728 courses, ranking them by probability.
         + **Seen Subgroup:** Predicted courses converted to corresponding subgroup.
